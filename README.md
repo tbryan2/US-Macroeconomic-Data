@@ -2,10 +2,10 @@
 Northwestern Data Science Bootcamp Project 3
 
 # Collaborators
--Dan Murphy
--Sodiq Alagbada
--Tim Bryan
--Danielle Sears
+- Dan Murphy
+- Sodiq Alagbada
+- Tim Bryan
+- Danielle Sears
 
 ## Objective
 We would like to allow users of our data visualizations to find answers to how inflation impacts the nation and make other findings of other ecomonic coorelations such as mortgage and unemployment rates over time. 
