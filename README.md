@@ -14,10 +14,13 @@ We would like to allow users viewing our data visualizations dashboard to discov
 - https://www.kaggle.com/datasets/sarthmirashi07/us-macroeconomic-data?resource=download&select=US_macroeconomics.csv
 - https://fred.stlouisfed.org/docs/api/fred/
 
-## Databases Planned on Using
-- MongoDB
-- App.py
-- Flask
+## App Structure
+- FRED API - data source (Sodiq)
+- MongoDB - data storage (Sodiq)
+- Flask - API (Dan)
+- Bootstrap - HTML, CSS (Danielle)
+- JavaScript - Plotly, Leaflet (Tim)
+
 
 ## Initial Ideas for Visualizations
 - US state inflation heatmap
