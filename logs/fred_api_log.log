@@ -1,0 +1,23 @@
+2022-08-15 21:27:19,615|session.py|URL: https://api.stlouisfed.org/fred/category
+2022-08-15 21:27:19,615|session.py|PARAMS: {'category_id': '125', 'api_key': 'xxxxxxxx', 'file_type': 'json'}
+2022-08-15 21:28:50,615|session.py|URL: https://api.stlouisfed.org/fred/series
+2022-08-15 21:28:50,616|session.py|PARAMS: {'series_id': 'GNPCA', 'api_key': 'xxxxxxxx', 'file_type': 'json', 'realtime_start': '2022-08-15', 'realtime_end': '2022-08-15'}
+2022-08-15 21:28:50,923|session.py|URL: https://api.stlouisfed.org/fred/series/categories
+2022-08-15 21:28:50,923|session.py|PARAMS: {'series_id': 'EXJPUS', 'api_key': 'xxxxxxxx', 'file_type': 'json', 'realtime_start': '2022-08-15', 'realtime_end': '2022-08-15'}
+2022-08-15 21:28:51,124|session.py|URL: https://api.stlouisfed.org/fred/series/observations
+2022-08-15 21:28:51,124|session.py|PARAMS: {'series_id': 'GNPCA', 'api_key': 'xxxxxxxx', 'file_type': 'json', 'realtime_start': '2022-08-15', 'realtime_end': '2022-08-15', 'observation_start': '1776-07-04', 'observation_end': '9999-12-31', 'offset': 0, 'limit': 1000, 'sort_order': 'asc', 'units': 'lin', 'frequency': None, 'aggregation_method': 'avg', 'output_type': 1, 'vintage_dates': None}
+2022-08-15 21:28:51,325|session.py|URL: https://api.stlouisfed.org/fred/series/release
+2022-08-15 21:28:51,325|session.py|PARAMS: {'series_id': 'IRA', 'api_key': 'xxxxxxxx', 'file_type': 'json', 'realtime_start': '2022-08-15', 'realtime_end': '2022-08-15'}
+2022-08-15 21:28:51,519|session.py|URL: https://api.stlouisfed.org/fred/series/search
+2022-08-15 21:28:51,520|session.py|PARAMS: {'search_text': 'Monetary Service Index', 'search_type': 'full_text', 'api_key': 'xxxxxxxx', 'file_type': 'json', 'realtime_start': '2022-08-15', 'realtime_end': '2022-08-15', 'offset': 0, 'limit': 1000, 'sort_order': 'asc', 'order_by': 'series_id', 'filter_variable': None, 'filter_value': None, 'tag_names': None, 'exclude_tag_names': None}
+2022-08-15 21:28:57,676|session.py|URL: https://api.stlouisfed.org/fred/series/search/tags
+2022-08-15 21:28:57,677|session.py|PARAMS: {'series_search_text': 'Monetary Service Index', 'api_key': 'xxxxxxxx', 'file_type': 'json', 'realtime_start': '2022-08-15', 'realtime_end': '2022-08-15', 'offset': 0, 'limit': 1000, 'sort_order': 'asc', 'order_by': 'series_count', 'tag_group_id': None, 'tag_search_text': None, 'tag_names': None}
+2022-08-15 21:28:58,832|session.py|URL: https://api.stlouisfed.org/fred/series/search/related_tags
+2022-08-15 21:28:58,833|session.py|Joining Tag Names: ['30-year', 'frb']
+2022-08-15 21:28:58,833|session.py|PARAMS: {'series_search_text': 'Mortgage Rates', 'api_key': 'xxxxxxxx', 'file_type': 'json', 'realtime_start': '2022-08-15', 'realtime_end': '2022-08-15', 'offset': 0, 'limit': 1000, 'sort_order': 'asc', 'order_by': 'series_count', 'tag_group_id': None, 'tag_search_text': None, 'tag_names': '30-year;frb', 'exclude_tag_names': None}
+2022-08-15 21:28:59,099|session.py|URL: https://api.stlouisfed.org/fred/series/tags
+2022-08-15 21:28:59,099|session.py|PARAMS: {'series_id': 'STLFSI', 'api_key': 'xxxxxxxx', 'file_type': 'json', 'realtime_start': '2022-08-15', 'realtime_end': '2022-08-15', 'sort_order': 'asc', 'order_by': 'series_count'}
+2022-08-15 21:28:59,944|session.py|URL: https://api.stlouisfed.org/fred/series/updates
+2022-08-15 21:28:59,944|session.py|PARAMS: {'api_key': 'xxxxxxxx', 'file_type': 'json', 'realtime_start': '2022-08-15', 'realtime_end': '2022-08-15', 'offset': 0, 'limit': 1000, 'filter_value': 'all', 'start_time': None, 'end_time': None}
+2022-08-15 21:29:07,692|session.py|URL: https://api.stlouisfed.org/fred/series/vintagedates
+2022-08-15 21:29:07,694|session.py|PARAMS: {'series_id': 'GNPCA', 'api_key': 'xxxxxxxx', 'file_type': 'json', 'realtime_start': '1776-07-04', 'realtime_end': '9999-12-31', 'offset': 0, 'limit': 1000, 'sort_order': 'asc'}
