@@ -4,9 +4,8 @@ body {
   margin: 0;
 }
 
-/* Set map, body, and html to 100% of the screen size. */
-#map,
-body,
-html {
-  height: 50%;
+/* Set map to 50% width and height. */
+#map {
+  height: 65%;
+  width: 75%;
 }
