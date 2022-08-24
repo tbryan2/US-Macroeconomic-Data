@@ -8,7 +8,7 @@ Northwestern Data Science Bootcamp Project 3
 - Danielle Sears
 
 ## Objective
-We would like to allow users viewing our data visualizations dashboard to discover how inflation, mortgage rates, unemployment rates, and other economic trends shift over time, on a national level. Users will be able to toggle between variables and isolating specific ones to illistrate coorelations and forcasts.
+We created this for users to discover how the unemployment rate, minimum wage, and per capita income impacts the US across each state.
 
 ## Data Source
 - https://fred.stlouisfed.org/docs/api/fred/
