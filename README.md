@@ -22,5 +22,5 @@ We created this for users to discover how the unemployment rate, minimum wage, a
 
 
 ## Initial Ideas for Visualizations
-- US state inflation heatmap
-- Dropdown relating to economic coorelations
+- US state inflation heatmap with zoom capability
+- Dropdown to choose the preferred dataset
