@@ -72,6 +72,8 @@ function plot_unemployment(data) {
 
     }
 
+console.log(percapincomeStatesData);
+
 // Update the map with percapincome data when the collection dropdown menu is changed
 function update_percapincome(data) {
     d3.json(percapincome_url).then(function (response) {
@@ -199,9 +201,9 @@ function update_minimum_wage(data) {
 // Initialize the plot
 //plot_unemployment();
 
-//update_percapincome();
+update_percapincome();
 
-update_minimum_wage();
+//update_minimum_wage();
 
 // Update the plot when the collection dropdown menu is changed
 d3.select("#collection").on("change", function () {
