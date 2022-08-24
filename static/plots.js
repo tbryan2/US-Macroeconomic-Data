@@ -184,7 +184,6 @@ function plot_minimum_wage(data) {
 
         L.geoJson(minimum_wageStatesData, { style: style }).addTo(myMap);
 
-
     });
 
 
@@ -193,19 +192,19 @@ function plot_minimum_wage(data) {
 plot_unemployment();
 
 // Change the plot when the collection dropdown is changed
-d3.select("#dropdown").on("change", function () {
-    
+function changeDataset(value) {
     console.log('hello');
-     var selectedOption = d3.select(this).property("value");
-     if (selectedOption == "Unemployment") {
-         plot_unemployment();
-     }
-     else if (selectedOption == "Per Capita Income") {
-         plot_percapincome();
-     }
-     else if (selectedOption == "Minimum Wage") {
-         plot_minimum_wage();
-     }
+
+    var selectedOption = d3.select(this).property("value");
+    
+    if (selectedOption == "Unemployment") {
+        plot_unemployment();
+    }
+    else if (selectedOption == "Per Capita Income") {
+        plot_percapincome();
+    }
+    else if (selectedOption == "Minimum Wage") {
+        plot_minimum_wage();
+    }
 }
-);
 
