@@ -72,7 +72,6 @@ function plot_unemployment(data) {
 
     }
 
-console.log(percapincomeStatesData);
 
 // Update the map with percapincome data when the collection dropdown menu is changed
 function update_percapincome(data) {
@@ -199,9 +198,9 @@ function update_minimum_wage(data) {
 }
 
 // Initialize the plot
-//plot_unemployment();
+plot_unemployment();
 
-update_percapincome();
+//update_percapincome();
 
 //update_minimum_wage();
 
@@ -213,6 +212,9 @@ d3.select("#collection").on("change", function () {
     }
     else if (selected_collection == "Per Capita Income") {
         update_percapincome();
+    }
+    else if (selected_collection == "Minimum Wage") {
+        update_minimum_wage();
     }
 }
 );
