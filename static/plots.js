@@ -195,9 +195,9 @@ function plot_minimum_wage(data) {
 
 plot_unemployment();
 
-plot_percapincome();
+//plot_percapincome();
 
-plot_minimum_wage();
+//plot_minimum_wage();
 
 d3.selectAll("#dropdown").on("change", changeDataset);
 
