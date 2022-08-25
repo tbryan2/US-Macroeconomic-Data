@@ -7,11 +7,13 @@ var percapincome_url = "http://127.0.0.1:5000/api/percapincome";
 // Define the minimum_wage API endpoint URL
 var minimum_wage_url = "http://127.0.0.1:5000/api/minimum_wage";
 
-var myMap = L.map('map').setView([37.8, -96], 4);
+
 
 // Initially plot the unemployment data
 function plot_unemployment(data) {
-    myMap.remove();
+
+    
+    
     d3.json(unemployment_url).then(function (response) {
 
         region = [];
@@ -77,7 +79,9 @@ function plot_unemployment(data) {
 
 // Initially plot the percapincome data
 function plot_percapincome(data) {
-    myMap.remove();
+
+
+    
     d3.json(percapincome_url).then(function (response) {
 
         region = [];
@@ -142,11 +146,11 @@ function plot_percapincome(data) {
 
 // Initially plot the minimum_wage data
 function plot_minimum_wage(data) {
-    myMap.remove();
+    
 
     d3.json(percapincome_url).then(function (response) {
 
-
+     
 
         // Define the map variable
         var myMap = L.map('map').setView([37.8, -96], 4);
@@ -191,12 +195,19 @@ function plot_minimum_wage(data) {
 
 plot_unemployment();
 
+plot_percapincome();
+
+plot_minimum_wage();
+
+d3.selectAll("#dropdown").on("change", changeDataset);
+
 // Change the plot when the collection dropdown is changed
 function changeDataset(value) {
     console.log('hello');
-
-    var selectedOption = d3.select(this).property("value");
     
+
+    var selectedOption = d3.select("#dropdown").property("value");
+
     if (selectedOption == "Unemployment") {
         plot_unemployment();
     }
